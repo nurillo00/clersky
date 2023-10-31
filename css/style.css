@@ -1,0 +1,845 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Noto+Sans&family=Noto+Sans+NKo+Unjoined&family=Nunito&family=Playfair+Display:ital,wght@1,600&family=Roboto:ital@0;1&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Young Serif', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+img {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*================================== HEADER START =================================*/
+
+.header {
+    height: 645px;
+    padding: 20px 80px 0px 130px;
+    margin-bottom: 120px;
+    background: #163A24;
+}
+
+.header_wrap {
+    display: flex;
+    align-items: center;
+    gap: 0 625px;
+    margin-bottom: 20px;
+}
+
+.header_list {
+    display: flex;
+    align-items: center;
+    gap: 0 25px;
+}
+
+.header_item a {
+    color: #FBFAF7;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_link {
+    padding: 15px 25px;
+    border-radius: 120px;
+    background: #198C36;
+    color: #FBFAF7;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_hero_wrap {
+    display: flex;
+    align-items: center;
+    gap: 0 17px;
+}
+
+.hero_wrap_text h1 {
+    width: 391px;
+    margin-bottom: 19px;
+    color: #FBFAF7;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65.25px;
+}
+
+.hero_wrap_text p {
+    width: 475px;
+    color: #FBFAF7;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/*================================== HEADER END =================================*/
+
+/*================================== MAIN START =================================*/
+
+/*================================== HERO START =================================*/
+
+.hero {
+    margin-bottom: 15px;
+}
+
+.hero_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 100px;
+}
+
+.hero_text h2 {
+    color: #163A24;
+    margin-bottom: 28px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.hero_text p {
+    width: 374px;
+    color: #163A24;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/*================================== HERO END =================================*/
+
+/*================================== INFO START =================================*/
+
+.info {
+    margin-bottom: 114px;
+}
+
+.info_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 100px;
+}
+
+.info_text h2 {
+    width: 380px;
+    margin-bottom: 28px;
+    color: #163A24;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.info_text p {
+    width: 380px;
+    color: #163A24;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/*================================== INFO END =================================*/
+
+/*================================== DOWNLOAD START =================================*/
+
+.download {
+    margin-bottom: 120px;
+}
+
+.download_wrap {
+    text-align: center;
+}
+
+.download_wrap h3 {
+    margin: 0 auto;
+    margin-bottom: 67px;
+    color: #163A24;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.download_list {
+    display: flex;
+    height: 59.391px;
+    padding: 0px 43.656px 0px 43.672px;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+}
+
+/*================================== DOWNLOAD END =================================*/
+
+
+
+
+/*================================== SECURITY START =================================*/
+
+.security {
+    width: 100%;
+    height: 568px;
+    padding: 66px 130px 140px 130px;
+    /* margin-bottom: 115px; */
+    background: #163A24;
+}
+
+.security h3 {
+    width: 823px;
+    margin: 0 auto;
+    margin-bottom: 68px;
+    color: #FBFAF7;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.security_list {
+    display: flex;
+    align-items: center;
+    gap: 0 28px;
+}
+
+.security_item {
+    width: 295px;
+    mb140
+}
+
+.security_item img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+.security_item p {
+    color: #FBFAF7;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/*================================== SECURITY END =================================*/
+
+/*================================== SIZE START =================================*/
+
+.size {
+    background: #F2EFE6;
+    padding: 115px 130px 135px 130px;
+    margin-bottom: 183px;
+}
+
+.size_wrap {
+    width: 760px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.size_wrap h2 {
+    width: 740px;
+    margin-bottom: 27px;
+    color: #163A24;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.size_wrap p {
+    margin-bottom: 10px;
+    color: #163A24;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.size img {
+    width: 1080px;
+    margin-left: -170px;
+}
+
+/*================================== SIZE END =================================*/
+
+/*================================== FIT START =================================*/
+
+.fit {
+    margin-bottom: 115px;
+}
+
+.fit_wrap {
+    display: flex;
+    align-items: center;
+    gap: 0 114px;
+}
+
+.fit_text {
+    width: 380px;
+
+}
+
+.fit_text h3 {
+    margin-bottom: 27px;
+    color: #163A24;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.fit_text p {
+    color: #163A24;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/*================================== FIT END =================================*/
+
+/*================================== BEST START =================================*/
+
+.best {
+    margin-bottom: 120px;
+}
+
+.best_text {
+    width: 727px;
+    margin: 0 auto;
+    color: #163A24;
+    text-align: center;
+}
+
+.best-h3 {
+    margin-bottom: 26px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.best_text p {
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.best_list {
+    display: flex;
+    gap: 0 41px;
+}
+
+.best_item {
+    width: 353px;
+    height: 393px;
+    padding: 50px 64px 66px 40px;
+    /* margin-left: -50px; */
+    text-align: start;
+    border-radius: 15px;
+    background: #fbfaf7;
+    box-shadow: 5px 5px 20px 0px #E9E4D5;
+}
+
+.best_item img {
+    margin-bottom: 20px;
+}
+
+.best_item h4 {
+    width: 180px;
+    margin-bottom: 23px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.5px;
+}
+
+.best_item-2 {
+    width: 353px;
+    height: 430px;
+    padding: 50px 64px 66px 40px;
+    text-align: start;
+    border-radius: 15px;
+    background: #fbfaf7;
+    box-shadow: 5px 5px 20px 0px #E9E4D5;
+}
+
+.best_item-2 img {
+    margin-bottom: 20px;
+}
+
+.best_item-2 h4 {
+    width: 285px;
+    margin-bottom: 23px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.5px;
+}
+
+.best_item-3 {
+    width: 353px;
+    height: 393px;
+    padding: 50px 12px 66px 40px;
+    text-align: start;
+    border-radius: 15px;
+    background: #fbfaf7;
+    box-shadow: 5px 5px 20px 0px #E9E4D5;
+}
+
+.best_item-3 img {
+    margin-bottom: 20px;
+}
+
+.best_item-3 h4 {
+    width: 310px;
+    margin-bottom: 23px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.5px;
+}
+
+
+
+
+.small_list {
+    margin-left: 22px;
+    list-style: outside;
+}
+
+.small_item a {
+    margin-bottom: 10px;
+    color: #163A24;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.small_item-2 a {
+    margin-bottom: 10px;
+    color: #163A24;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.small_item-3 a {
+    margin-bottom: 10px;
+    color: #163A24;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*================================== BEST END =================================*/
+
+
+/*================================== BOOK START =================================*/
+
+.book {
+    height: 552px;
+    padding: 115px 182px 125px 120px;
+    margin-bottom: 120px;
+    background: #F2EFE6;
+}
+
+.book_wrap {
+    width: 527px;
+    margin: 0 auto;
+    text-align: center;
+    color: #163A24;
+}
+
+.book_wrap h3 {
+    margin-bottom: 26px;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.book_wrap p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.book_list {
+    display: flex;
+    align-items: center;
+    gap: 0 95px;
+    margin-left: 125px;
+}
+
+.book_item {
+    display: flex;
+    justify-content: center;
+    width: 262px;
+    height: 141px;
+    text-align: center;
+    padding: 0px 28.328px 0px 0.016px;
+    align-items: center;
+    gap: 27.781px;
+    flex-shrink: 0;
+}
+
+.book_item p {
+    width: 260px;
+    margin-bottom: 13px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.book_item h4 {
+    margin-bottom: 46px;
+    margin-left: 35px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.5px;
+}
+
+.book_btn {
+    width: 244px;
+    height: 52px;
+    padding: 15px 25px;
+    margin-left: 495px;
+    border: none;
+    border-radius: 160px;
+    background: #198C36;
+    color: #FBFAF7;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*================================== BOOK END =================================*/
+
+
+/*================================== HR START =================================*/
+
+.hr {
+    margin-bottom: 135px;
+}
+
+
+.hr_wrap {
+    display: flex;
+    align-items: center;
+    gap: 0 100px;
+}
+
+.hr_text {
+    width: 400px;
+    color: #163A24;
+}
+
+.hr_text h3 {
+    margin-bottom: 25px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.hr_text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.hr_text a {
+    width: 191px;
+    height: 52px;
+    padding: 15px 25px;
+    border-radius: 160px;
+    background: #198C36;
+    color: #FBFAF7;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*================================== HR END =================================*/
+
+
+/*================================== PAY START =================================*/
+
+.pay {
+    display: flex;
+    height: 400px;
+    padding-top: 20px;
+    background: #163A24;
+
+}
+
+.pay_wrap {
+    width: 550px;
+    height: 415px;
+    margin: 0 auto;
+    margin-top: 95px;
+    text-align: center;
+    color: #FBFAF7;
+}
+
+.pay_wrap h3 {
+    margin-bottom: 26px;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.pay_wrap p {
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.pay_wrap a {
+    width: 258px;
+    height: 52px;
+    padding: 15px 25px;
+    border-radius: 160px;
+    background: #FAB5A0;
+    color: #163A24;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*================================== PAY END =================================*/
+
+
+/*================================== SIGN START =================================*/
+
+
+.sign {
+    padding: 55px 130px 73px 130px;
+    background: #F2EFE6;
+}
+
+.sign_wrap {
+    display: flex;
+    gap: 0 248px
+}
+
+.sign_text {
+    width: 590px;
+    margin-right: -390px;
+    color: #163A24;
+}
+
+.sign_text h2 {
+    margin-right: -390px;
+    margin-bottom: 26px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.text-p {
+    width: 590px;
+    margin-right: -390px;
+}
+
+.input {
+    position: relative;
+    display: flex;
+    width: 590px;
+    margin-left: 150px;
+}
+
+.input input {
+    width: 553px;
+    height: 54px;
+    position: relative;
+    margin-bottom: 12px;
+    border-radius: 255px;
+    border: 1px solid #F2EFE6;
+    background: #FFF;
+}
+
+.input button {
+    width: 111px;
+    height: 52px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    border-radius: 160px;
+    background: #15762d;
+    color: #FBFAF7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sign_btn:hover {
+    opacity: 0.7;
+}
+
+.sign_btn:active {
+    opacity: 0.4;
+}
+
+.sign_p-1 {
+    width: 584px;
+    margin-left: 150px;
+    color: #163A24;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.sign_link {
+    margin-left: 8px;
+    color: #198C36;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/*================================== SIGN END =================================*/
+
+
+/*================================== MAIN START =================================*/
+
+
+
+
+
+/*================================== FOOTER START =================================*/
+
+.footer {
+    padding-top: 41px;
+    padding-bottom: 25px;
+}
+
+.footer_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+}
+
+h4 {
+    color: #163A24;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.logo_list {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+hr {
+    height: 1px;
+    margin-bottom: 25px;
+    border: none;
+    background: #F2EFE6;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    gap: 0 280px;
+}
+
+.end-p {
+    color: #163A24;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.footer_list {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+a {
+    color: #198C36;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/*================================== FOOTER END =================================*/
